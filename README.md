@@ -16,7 +16,7 @@ Guide how to install and config Wireguard VPN server on your OpenWRT router. Gui
 
 6) Save, Save and Apply
 
-## Setup intergace to handle traffic of VPN
+## Setup interface to handle traffic of VPN
 7) Navigate to Network - Interfaces and create new Interface
 8) Name: wg0, Protocol: Wireguard VPN, Bring up on reboot: checked, Click generate new pair, Listen port: 51821, IP adresess: 10.0.0.1/24 (must be differend from your normal LAN network IP range. Suitable for my situation, when LAN is 192.168.0.1/24).
 <img width="1920" height="944" alt="wireguard-guide-3" src="https://github.com/user-attachments/assets/cdd46633-a6a9-49f4-9a3e-4cf3f53fbdff" />

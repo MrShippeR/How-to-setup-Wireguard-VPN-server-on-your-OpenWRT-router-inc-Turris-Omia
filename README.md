@@ -43,7 +43,8 @@ Guide how to install and config Wireguard VPN server on your OpenWRT router. Gui
 18) Edit newly created Peer Captain America PC and click on button Generate configuration... on very bottom of the page.
 19) You must edit data on this page. It doesn't persistate even when you click on Save button. Little bug here. Connection Endpoint: 85.207.119.6 (= your public IP adress), DNS servers: 8.8.8.8 (default is your OpenWRT adress, probably you doesn't have DNS server there, so use google DNS server instead)
 20) Scan QR code to your Android wireguard App. Or for PC copy generated configuration and save it to your PC with Notepad and name it like captain-america-pc.conf After that load this config file with your Wireguard App on PC.
-<img width="1921" height="1015" alt="wireguard-guide-7" src="https://github.com/user-attachments/assets/3d39437c-3589-4e3b-81e0-8e6e008b00c4" />
+<img width="1921" height="1015" alt="wireguard-guide-7" src="https://github.com/user-attachments/assets/c52e650f-6b1a-4fdf-9c59-8bcb3b0016c4" />
+
 
 ## Apply settings of interface
 21) Navigate to Network - Interfaces and click on Restart button of your wg0 interface. Only this make your settings applied. Save and Apply button isn't enough. Do this every time when you change settings in your intergace.

@@ -31,7 +31,7 @@ Guide how to install and config Wireguard VPN server on your OpenWRT router. Gui
 <img width="1920" height="953" alt="wireguard-guide-5" src="https://github.com/user-attachments/assets/71b34545-166c-4fbc-8226-76984f68ce97" />
 
 12) Click Add peer button. Name: Captain America PC (for example), Click button Generate new key pair, Click Generate preshared key
-13) IP adresess: 10.0.0.2/32 (For every another user incremate last number of IP adress. Wolwerine will be: 10.0.0.3/32, Ironman: 10.0.0.4/32, Hulk: 10.0.0.5/32 and so on...)
+13) Allowed IPs: 10.0.0.2/32 (For every another user incremate last number of IP adress. Wolwerine will be: 10.0.0.3/32, Ironman: 10.0.0.4/32, Hulk: 10.0.0.5/32 and so on...)
 14) End point IP adress: 85.207.119.6 (= your public IP adress, you can find at https://www.whatsmyip.org/)
 15) End point port: 51821
 16) Keep alive: 25
